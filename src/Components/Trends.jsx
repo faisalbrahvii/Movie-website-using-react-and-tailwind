@@ -45,7 +45,7 @@ const Trends = () => {
             <FaLessThan className='text-white text-5xl absolute p-2 left-0' />
           </div>
           {trends.map((items, index) => (
-           <div key={index} className='w-[14%]'>
+           <div key={index} className=''>
              <div>
                <img src={items.image} alt="" className='rounded-lg' />
                <div className='mt-4'>
